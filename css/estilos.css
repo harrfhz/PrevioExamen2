@@ -9,41 +9,45 @@ body {
 header {
     background-color: #5812fa;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 0 4px 8px #0002;
 }
 
-header a {
-    color: #cbd5e0;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 10px;
-}
-
-header a:hover {
-    color: white;
-}
 
 main {
     background: rgb(217, 193, 236);
     padding: 20px;
-    margin-top: 15px;
-    border-radius: 30px;
     margin: 30px auto;
+    border-radius: 30px;
     max-width: 700px;
+    box-shadow: 0 4px 10px #0002;
 }
 
-input[type="text"] {
-    width: 250px;
+
+
+.card {
+    background-color: #eee5ff;
+    padding: 15px;
+    border-radius: 20px;
+    min-height: 220px;
 }
 
+.card img {
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card a:hover img {
+    opacity: 0.8;
+}
 
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
-    color: #000000ce;
+    color: #29204a;
 }
 
 button {
@@ -51,7 +55,11 @@ button {
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+}
+
+button:hover {
+    background-color: #5812fa;
 }
