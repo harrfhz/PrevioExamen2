@@ -136,4 +136,28 @@ body.pagina-frame {
         box-sizing: border-box;
     }
 
+    /* Poner el menú arriba y el contenido abajo */
+    .marco {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .menu {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contenido {
+        width: 100%;
+        height: 70vh;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .contenido iframe {
+        width: 100%;
+        height: 100%;
+    }
+
 }
